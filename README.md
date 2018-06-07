@@ -1,10 +1,9 @@
 # SwiftyTM1637
 
-![Swift3](https://img.shields.io/badge/swift-3-blue.svg)
 ![Swift4](https://img.shields.io/badge/swift-4-blue.svg)
 ![tuxOS](https://img.shields.io/badge/os-tuxOS-green.svg?style=flat)
 <a href="https://slackpass.io/swift-arm"><img src="https://img.shields.io/badge/Slack-swift/arm-red.svg?style=flat"/></a>
-<a href=""><img src="https://travis-ci.org/AlwaysRightInstitute/SwiftyTM1637.svg?branch=develop" /></a>
+<a href="https://travis-ci.org/AlwaysRightInstitute/SwiftyTM1637"><img src="https://travis-ci.org/AlwaysRightInstitute/SwiftyTM1637.svg?branch=develop" /></a>
 
 A 
 [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO)
@@ -57,7 +56,8 @@ while true {
 
 **SwiftyTM1637** is brought to you by
 [AlwaysRightInstitute](http://www.alwaysrightinstitute.com).
-We like feedback, GitHub stars, cool contract work,
+We like feedback, GitHub stars, 
+cool [contract work](http://zeezide.com/en/services/services.html),
 presumably any form of praise you can think of.
 
 There is a channel on the [Swift-ARM Slack](http://swift-arm.noze.io).
