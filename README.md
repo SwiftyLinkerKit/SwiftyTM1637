@@ -153,7 +153,8 @@ swift@fb630076e0ec:~/testit$ sudo .build/armv7-unknown-linux-gnueabihf/debug/tes
 If your LK-Digi is connected to port D4/D5, it should now show a nice
 digital clock!
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Excited like a child: SwiftyGPIO driven input/output using LinkerKit components. <a href="https://t.co/1USQFrGp1d">pic.twitter.com/1USQFrGp1d</a></p>&mdash; Helge Heß (@helje5) <a href="https://twitter.com/helje5/status/1004022796924674048?ref_src=twsrc%5Etfw">June 5, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+Want to see it in action?
+<a href="https://twitter.com/helje5/status/1004022796924674048">SwiftyGPIO driven input/output using LinkerKit components</a>
 
 
 ### Who
