@@ -3,7 +3,7 @@
 ![Swift4](https://img.shields.io/badge/swift-4-blue.svg)
 ![tuxOS](https://img.shields.io/badge/os-tuxOS-green.svg?style=flat)
 <a href="https://slackpass.io/swift-arm"><img src="https://img.shields.io/badge/Slack-swift/arm-red.svg?style=flat"/></a>
-<a href="https://travis-ci.org/AlwaysRightInstitute/SwiftyTM1637"><img src="https://travis-ci.org/AlwaysRightInstitute/SwiftyTM1637.svg?branch=develop" /></a>
+<a href="https://travis-ci.org/AlwaysRightInstitute/SwiftyTM1637"><img src="https://travis-ci.org/AlwaysRightInstitute/SwiftyTM1637.svg?branch=master" /></a>
 
 A 
 [SwiftyGPIO](https://github.com/uraimo/SwiftyGPIO)
