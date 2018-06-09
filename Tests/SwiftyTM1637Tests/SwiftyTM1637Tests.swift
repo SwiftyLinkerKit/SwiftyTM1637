@@ -28,9 +28,15 @@ class SwiftyTM1637Tests: XCTestCase {
                      "binary values for digit \(i) do not match")
     }
   }
+  
+  func testZZ() {
+    let c : Character = "Z"
+    XCTAssertNotNil(c.sevenSegmentValue)
+  }
 
   static var allTests = [
     ( "testSevenSegment",        testSevenSegment        ),
     ( "testSevenSegmentWithDot", testSevenSegmentWithDot ),
+    ( "testZZ",                  testZZ                  ),
   ]
 }
