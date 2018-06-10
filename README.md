@@ -1,4 +1,7 @@
-# SwiftyTM1637
+<h2>SwiftyTM1637
+  <img src="http://zeezide.com/img/LKDigi168.png"
+       align="right" width="168" height="168" />
+</h2>
 
 ![Swift4](https://img.shields.io/badge/swift-4-blue.svg)
 ![tuxOS](https://img.shields.io/badge/os-tuxOS-green.svg?style=flat)
