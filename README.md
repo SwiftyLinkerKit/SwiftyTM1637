@@ -120,8 +120,8 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/uraimo/SwiftyGPIO.git",
                  from: "1.0.0"),
-        .package(url: "https://github.com/AlwaysRightInstitute/SwiftyTM1637.git",
-                 from: "0.1.0"),
+        .package(url: "https://github.com/SwiftyLinkerKit/SwiftyTM1637.git",
+                 from: "0.1.2"),
     ],
     targets: [
         .target(
@@ -140,8 +140,8 @@ Fetching https://github.com/uraimo/SwiftyGPIO.git
 Fetching https://github.com/AlwaysRightInstitute/SwiftyTM1637.git
 Cloning https://github.com/uraimo/SwiftyGPIO.git
 Resolving https://github.com/uraimo/SwiftyGPIO.git at 1.0.5
-Cloning https://github.com/AlwaysRightInstitute/SwiftyTM1637.git
-Resolving https://github.com/AlwaysRightInstitute/SwiftyTM1637.git at 0.1.0
+Cloning https://github.com/SwiftyLinkerKit/SwiftyTM1637.git
+Resolving https://github.com/SwiftyLinkerKit/SwiftyTM1637.git at 0.1.0
 Compile Swift Module 'SwiftyGPIO' (10 sources)
 Compile Swift Module 'SwiftyTM1637' (4 sources)
 Compile Swift Module 'testit' (1 sources)
