@@ -131,7 +131,7 @@ let package = Package(
 )
 ```
 
-Edit the `Sources/testit/main.swift` and add the Swift code above.
+Edit the `Sources/testit/main.swift` and add the Swift code [above](#example).
 
 Build everything:
 ```shell
