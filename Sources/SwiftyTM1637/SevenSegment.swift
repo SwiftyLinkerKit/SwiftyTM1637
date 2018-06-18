@@ -6,7 +6,7 @@
 //  Copyright © 2018 ZeeZide. All rights reserved.
 //
 
-public struct SevenSegment : OptionSet {
+public struct SevenSegment : OptionSet, CustomStringConvertible {
   
   public let rawValue : UInt8
   
@@ -62,4 +62,46 @@ public struct SevenSegment : OptionSet {
   }
 
   public var isDisplaying : Bool { return rawValue != 0 }
+  
+  public var characterRepresentation : Character {
+    let base = self.dotOff
+    if base == .off { return " " }
+    
+    // TODO: support many more (left vertical box line etc)
+    switch base {
+      case .middleDash: return "-"
+      case .lowerDash:  return "_"
+      default: break
+    }
+    
+    for i in 0..<16 {
+      let hd = SevenSegment.hexDigits[i]
+      if base == hd {
+        let s = String(i, radix: 16, uppercase: true)
+        return s.first!
+      }
+    }
+    
+    return " "
+  }
+  
+  public var description: String {
+    var ms = "<7Seg: "
+    
+    ms += "0x"
+    ms += String(rawValue, radix: 16, uppercase: true)
+
+    let c = characterRepresentation
+    if c != " " {
+      ms += " "
+      ms += String(characterRepresentation)
+      if contains(.dot) { ms += "." }
+    }
+    else if contains(.dot) {
+      ms += " ."
+    }
+    
+    ms += ">"
+    return ms
+  }
 }
